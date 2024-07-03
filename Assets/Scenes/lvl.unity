@@ -7893,7 +7893,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d6534655d67a1824f9907a4054c033f4,
         type: 3}
       propertyPath: m_Name
-      value: well
+      value: Well
       objectReference: {fileID: 0}
     - target: {fileID: 7071182760956848314, guid: d6534655d67a1824f9907a4054c033f4,
         type: 3}
@@ -16010,7 +16010,7 @@ GameObject:
   - component: {fileID: 2089686538}
   - component: {fileID: 2089686542}
   m_Layer: 0
-  m_Name: Gate_1_1
+  m_Name: Gate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16180,8 +16180,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1.9782239, y: 2.6209157, z: 0.42375833}
-  m_Center: {x: -0.03442485, y: 0.93216443, z: 0.2881207}
+  m_Size: {x: 1.9782239, y: 3.920934, z: 0.42375833}
+  m_Center: {x: -0.03442485, y: 1.5821724, z: 0.2881207}
 --- !u!4 &2089686543
 Transform:
   m_ObjectHideFlags: 0
@@ -16760,7 +16760,7 @@ GameObject:
   - component: {fileID: 7468502348355871688}
   - component: {fileID: 7468502348355871689}
   m_Layer: 0
-  m_Name: Torus.001
+  m_Name: Key
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
