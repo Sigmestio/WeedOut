@@ -9,8 +9,8 @@ public class DoorsWithLock : MonoBehaviour
     public GameObject keyText;
     public GameObject KeyINV;
 
-   // public AudioSource doorSound;
-    //public AudioSource lockedSound;
+    public AudioSource doorSound;
+    public AudioSource lockedSound;
 
 
     public bool inReach;
@@ -78,7 +78,7 @@ public class DoorsWithLock : MonoBehaviour
 
         if (locked && inReach && Input.GetButtonDown("Interact"))
         {
-            //lockedSound.Play();
+            lockedSound.Play();
             keyText.SetActive(true);
 
         }
@@ -93,7 +93,7 @@ public class DoorsWithLock : MonoBehaviour
         {
             door.SetBool("Open", true);
             door.SetBool("Closed", false);
-            //doorSound.Play();
+            doorSound.Play();
         }
 
     }
