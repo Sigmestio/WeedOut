@@ -8,7 +8,7 @@ public class exit : MonoBehaviour
     public GameObject youescapedPlane;
     public GameObject youescapedText;
     public GameObject exitText;
-    
+    public AudioSource congrats;
 
 
     [SerializeField] private bool inReach;
@@ -51,7 +51,7 @@ public class exit : MonoBehaviour
         {
             youescapedPlane.SetActive(true);
             youescapedText.SetActive(true);
-            
+            congrats.Play();
 
 
 
